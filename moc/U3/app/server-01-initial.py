@@ -14,21 +14,6 @@ def index():
     """
     return "Hello Word! This is the answer of the server"
 
-@app.route('/ex1')
-def function_for_ex1():
-    return "Content of the url /ex1"
-
-@app.route('/ex2')
-def function_for_ex2():
-    return """
-    <head>
-        <title>Ex2</title>
-    </head>
-    
-    <body>
-        <h1>Volvemos al inicio</h1>
-        <a href= / >Inicio</a>
-    </body>"""    
 
 # start the server with the 'run()' method
 if __name__ == '__main__':
